@@ -3,17 +3,47 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-.background{
-    height: 100vh;
+html{
+    scroll-behavior: smooth;
+}
+.bar-hover ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 10px;
 }
 
-.red{
+.bar-hover{
+    position: fixed;
+    top: 10%;
+    right: 10%;
+}
+
+.container-hover{
+    color: black;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.bar-hover ul li div a{
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#background-red{
+    height: 100vh;
     background-color: red;
 }
-.green{
+#background-green{
+    height: 100vh;
     background-color: green;
 }
-.yellow{
+#background-yellow{
+    height: 100vh;
     background-color: yellow;
 }
+
