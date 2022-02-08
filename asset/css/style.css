@@ -67,7 +67,6 @@ img{
     transform: translate(-50%, -50%);
 }
 h2{
-    color: yellow;
     text-transform: uppercase;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 3.5em;
@@ -76,4 +75,8 @@ h2{
 
 #background-yellow h2{
     color: green;
+}
+
+h2:not(#background-yellow h2){
+    color: yellow;
 }
