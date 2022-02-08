@@ -6,6 +6,12 @@
 html{
     scroll-behavior: smooth;
 }
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .bar-hover ul li{
     list-style-type: none;
     display: inline-block;
@@ -16,6 +22,7 @@ html{
     position: fixed;
     top: 10%;
     right: 10%;
+    z-index: 1;
 }
 
 .container-hover{
@@ -37,6 +44,7 @@ html{
 #background-red{
     height: 100vh;
     background-color: red;
+    position: relative;
 }
 #background-green{
     height: 100vh;
@@ -47,3 +55,21 @@ html{
     background-color: yellow;
 }
 
+img{
+    width: 700px;
+}
+.container-img{
+    position: absolute;
+    left: 25%;
+}
+h2{
+    color: yellow;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+
+#background-yellow h2{
+    color: green;
+}
