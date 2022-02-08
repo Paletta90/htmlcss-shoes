@@ -49,24 +49,28 @@ html{
 #background-green{
     height: 100vh;
     background-color: green;
+    position: relative;
 }
 #background-yellow{
     height: 100vh;
     background-color: yellow;
+    position: relative;
 }
 
 img{
-    width: 700px;
+    width: 90vh;
 }
 .container-img{
     position: absolute;
-    left: 25%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 h2{
     color: yellow;
     text-transform: uppercase;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 2em;
+    font-size: 3.5em;
     text-align: center;
 }
 
