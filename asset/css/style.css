@@ -33,6 +33,10 @@ html{
     line-height: 30px;
     border-radius: 50%;
     text-align: center;
+    /* box-shadow: 5px 5px; */
+}
+.container-hover:hover{
+    box-shadow: 5px 5px;
 }
 
 .bar-hover ul li div a{
@@ -41,6 +45,7 @@ html{
     font-weight: 1000;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 #background-red{
     height: 100vh;
     background-color: red;
@@ -80,3 +85,4 @@ h2{
 h2:not(#background-yellow h2){
     color: yellow;
 }
+
